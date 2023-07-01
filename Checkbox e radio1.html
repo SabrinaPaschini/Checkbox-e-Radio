@@ -6,22 +6,25 @@
     <title>Checkbox e Radio</title>
  </head>
  <body>
-    <h1>Menu</h1>
-    
-<form method="post">
 
-<h3> Você selecionou: Pizza de Queijo</h3>
+    <h1>Menu</h1>
+    <hr>
+    
+<form method="get">
+
+<h3> Você selecionou:</h3><u>Pizza de Queijo</u> 
+
 <p>Quais opicionais você deseja?</p>
 
-<input type="checkbox" name="" value="Queijo"> + queijo <br>
-<input type="checkbox" name="" value="Calabresa"> + Calabresa <br>
-<input type="checkbox" name="" value="Carne"> + Calabresa <br>
+<input type="checkbox" name="Queijo"[] value="Queijo"> + queijo <br>
+<input type="checkbox" name="Calabresa"[] value="Calabresa"> + Calabresa <br>
+<input type="checkbox" name="Carne"[] value="Carne"> + Carne <br>
 
 <p> Borda recheada?</p>
 
 <input type="radio" name="borda recheada" value="Sim">Sim <br>
 <input type="radio" name="borda recheada" value="Não">Não <br>
-
+<hr>
 <button type="submit">Enviar pedido</button>
 
 
